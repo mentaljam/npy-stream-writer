@@ -1,0 +1,13 @@
+[package]
+name = "npy-stream-writer"
+version = "0.1.0"
+authors = ["Petr Tsymbarovich <petr@tsymbarovich.ru"]
+edition = "2021"
+description = "Simple stream writer for numpy files"
+repository = "https://github.com/mentaljam/npy-stream-writer.git"
+license = "MIT"
+keywords = ["numpy", "npy"]
+
+[dev-dependencies]
+anyhow = "^1.0"
+clap = { version = "^4.2", features = ["derive"] }
